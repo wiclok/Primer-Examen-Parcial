@@ -1,3 +1,20 @@
-* {
-    background-color: black;
+/*Barra de navegacio */
+
+.navbar {
+    padding: 2rem;
+    background-color: #E0E2DB;
 }
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*Adaptable (Responsivo)*/
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
