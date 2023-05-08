@@ -1,20 +1,74 @@
 /*Barra de navegacio */
 
 .navbar {
-    padding: 2rem;
-    background-color: #E0E2DB;
+  padding: 2rem;
+  background-color: #beb7a4;
+  height: 50px;
+  font-size: large;
 }
 
 .navbar-collapse {
-    align-items: center;
-    justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /*Adaptable (Responsivo)*/
 
 @media screen and (max-width: 767px) {
-    .navbar-brand {
-        display: none;
-    }
+  .navbar-brand {
+    display: none;
+  }
 }
 
+main {
+  background-color: #e6af2e;
+}
+
+/* Estilos generales*/
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/* Seccion Hero*/
+
+.hero {
+  background-color: #e6af2e;
+  min-height: 450px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: 'Rubik Dirt', cursive;
+}
+
+h2 {
+  font-family: 'Rubik Dirt', cursive;
+}
+
+.hero-principal {
+  padding: 3rem;
+}
+
+.hero-imagen-perfil {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  padding-top: 15px;
+}
+
+@media screen and (min-width: 700px) {
+  .hero-inferior-imagen {
+    max-width: 600px;
+  }
+}
+
+/* Footer */
+footer {
+  background-color: #beb7a4;
+}
