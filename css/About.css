@@ -32,15 +32,6 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
-}
-
-/* Seccion Hero*/
-
-.hero {
-  background-color: #e6af2e;
-  min-height: 450px;
-  text-align: center;
 }
 
 h1 {
@@ -52,21 +43,30 @@ h2 {
   font-family: 'Rubik Dirt', cursive;
 }
 
-.hero-principal {
-  padding: 3rem;
+.seccion-titulo {
+  font-size: 2rem;
+  padding: 15px 0;
 }
 
-.hero-imagen-perfil {
-  width: 200px;
-  height: 200px;
-  margin: 20px;
-  padding-top: 15px;
+.seccion-texto {
+  font-size: 1.2rem;
 }
 
-@media screen and (min-width: 700px) {
-  .hero-inferior-imagen {
-    max-width: 600px;
-  }
+/*Sobre mi*/
+
+.seccion-oscura {
+  color: white;
+  background-color: #1b1b32;
+}
+
+.sobre-mi {
+  height: 500px;
+  padding: 10px;
+}
+
+.sobre-mi .contenedor {
+  max-width: 600px;
+  text-align: center;
 }
 
 /* Footer */
