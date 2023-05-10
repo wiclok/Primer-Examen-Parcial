@@ -1,3 +1,8 @@
+Esta página contiene 4 archivos .html (index,About, Proyects, Contact).
+Se utilizaron hojas de estilo para cada css para cada html.
+también se utilizó boostrap para utilizar grillas y que las paginas sean responsivas.
+
+
 Consignas del examen:
 
 1. Crear un repositorio con git para desarrollar el portfolio en forma local.Añadir un archivo README.md con la descripción del proyecto.
