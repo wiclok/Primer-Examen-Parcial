@@ -14,17 +14,6 @@
 
 /*Adaptable (Responsivo)*/
 
-@media screen and (max-width: 767px) {
-  .navbar-brand {
-    display: none;
-  }
-}
-
-main {
-  background-color: #e6af2e;
-  padding-bottom: 20px;
-}
-
 /* Estilos generales*/
 
 section {
@@ -52,25 +41,35 @@ h2 {
   font-size: 1.2rem;
 }
 
-/*Sobre mi*/
+.texto-negro {
+  color: black;
+}
+
+.texto-blanco {
+  color: white;
+}
 
 .seccion-oscura {
   color: white;
   background-color: #1b1b32;
 }
 
+/*Sobre mi*/
+
+
 .sobre-mi {
-  height: 1500px;
+  max-height: 5000px;
   padding: 10px;
+  background-color: #e6af2e;
 }
 
 .sobre-mi .contenedor {
-  max-width: 600px;
-  text-align: center;
+  text-align:start;
 }
 
 /* Footer */
 footer {
+  margin-top: 0px;
   background-color: #beb7a4;
   min-height: 300px;
 }
